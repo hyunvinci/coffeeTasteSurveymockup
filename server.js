@@ -11,5 +11,5 @@ var port = readline.question('Put the port number you wanna use!!!');
 app. use(express.static(path.join(__dirname, 'coffeeTasteSurveymockup')));
 
 app.listen(port, function(){
-	console.log("server running at http://127.0.0.1+:"+`${port}`);
+	console.log("server running at http://127.0.0.1:"+`${port}`);
 });
